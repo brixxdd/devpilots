@@ -1,0 +1,26 @@
+{
+  "kind": "critique-panel",
+  "score": 4,
+  "axes": {
+    "philosophy": {
+      "score": 5,
+      "notes": "The page now reads as a DevPilots-specific corporate tech brand using the real isotipo, navy depth, ice-white space, cyan precision, orange conversion accents, navigation/flight motifs, and business-first messaging."
+    },
+    "hierarchy": {
+      "score": 4,
+      "notes": "Hero hierarchy is strong with the gradient emphasis on crecer, dominant orange CTAs, a visible WhatsApp path, and clearer commercial sections for business types and capabilities."
+    },
+    "execution": {
+      "score": 4,
+      "notes": "The isotipo was optimized for web, blur and shadow intensity were reduced, mobile CTA access was reinforced, reduced motion is covered, and tags remain balanced. Browser screenshot validation is still blocked by missing browser binary."
+    },
+    "specificity": {
+      "score": 5,
+      "notes": "Copy and modules are specific to DevPilots: local business growth, WhatsApp automation, scheduled follow-ups, payments, campaigns, fitness growth, business-type cards, and the provided contact details."
+    },
+    "restraint": {
+      "score": 4,
+      "notes": "Orange is more present but reserved for conversion and growth markers; cyan supports the technology layer. No generic emoji, stock visuals, or designer controls were added."
+    }
+  }
+}

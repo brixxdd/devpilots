@@ -4,6 +4,7 @@ import { FinalCTA } from "@/components/FinalCTA";
 import { FitnessGrowthSection } from "@/components/FitnessGrowthSection";
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
+import { LocalSEOSection } from "@/components/LocalSEOSection";
 import { Navbar } from "@/components/Navbar";
 import { PackagesSection } from "@/components/PackagesSection";
 import { ProblemSection } from "@/components/ProblemSection";
@@ -17,6 +18,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <LocalSEOSection />
         <ProblemSection />
         <SolutionsSection />
         <FitnessGrowthSection />

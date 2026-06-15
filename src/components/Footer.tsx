@@ -7,9 +7,9 @@ export function Footer() {
     <footer className="pb-14 pt-10 text-slate-700">
       <div className="shell grid grid-cols-[1fr_auto] items-start gap-7 border-t border-slate-200 pt-7 max-md:grid-cols-1">
         <div>
-          <Link href="#inicio" className="inline-flex items-center gap-2.5 font-display text-lg font-black tracking-[-0.015em] text-dev-navy">
+          <Link href="/" className="inline-flex items-center gap-2.5 font-display text-lg font-black tracking-[-0.015em] text-dev-navy">
             <span className="grid size-[42px] place-items-center overflow-hidden rounded-[13px] border border-cyan-100 bg-white/80">
-              <Image src="/assets-devpilots-logo.png" alt="" width={32} height={32} />
+              <Image src="/assets-devpilots-logo.png" alt="" width={32} height={32} className="h-8 w-8 object-contain" />
             </span>
             DevPilots
           </Link>

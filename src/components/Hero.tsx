@@ -41,7 +41,7 @@ export function Hero() {
           </div>
         </Reveal>
 
-        <Reveal className="relative min-h-[620px] max-lg:order-first max-lg:min-h-[570px] max-[430px]:min-h-[600px]" aria-label="Visual de dashboard DevPilots">
+        <Reveal className="relative min-h-[620px] max-lg:min-h-[570px] max-[430px]:min-h-[600px]" aria-label="Visual de dashboard DevPilots">
           <HeroVisual />
         </Reveal>
       </div>
@@ -147,10 +147,11 @@ function FloatingCard({
     <motion.div
       animate={prefersReducedMotion ? undefined : { y: [0, -12, 0] }}
       transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay }}
-      className={`absolute flex items-center gap-2.5 rounded-[18px] border border-white/25 bg-dev-navy/55 px-4 py-3 font-bold text-white shadow-[0_18px_44px_rgba(0,0,0,0.28)] backdrop-blur-md max-md:px-3 max-md:py-2.5 max-md:text-sm ${className ?? ""}`}
+      className={`absolute flex items-center gap-2.5 rounded-[18px] border border-white/25 bg-dev-navy/55 px-4 py-3 font-bold text-white shadow-[0_18px_44px_rgba(0,0,0,0.28)] backdrop-blur-md max-md:px-3 max-md:py-2.5 max-md:text-xs max-sm:scale-90 origin-center ${className ?? ""}`}
     >
       <Icon aria-hidden="true" size={18} className="text-dev-cyan" />
       {children}
     </motion.div>
   );
 }
+

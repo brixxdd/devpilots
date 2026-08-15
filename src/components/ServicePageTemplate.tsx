@@ -125,13 +125,13 @@ export function ServicePageTemplate({ data }: { data: ServiceDetail }) {
                   </div>
                   <h3 className="font-display text-2xl font-black text-dev-navy">Solución Llave en Mano</h3>
                   <p className="mt-3 text-dev-gray leading-relaxed text-sm">
-                    Nos encargamos de todo el proceso técnico y creativo. Tú te enfocas en operar tu negocio mientras nosotros construimos las herramientas para hacerlo crecer en Tapachula.
+                    {data.asideDescription || "Nos encargamos de todo el proceso técnico y creativo. Tú te enfocas en operar tu negocio mientras nosotros construimos las herramientas para hacerlo crecer en Tapachula."}
                   </p>
                   <div className="mt-6 border-t border-slate-100 pt-6">
                     <div className="flex items-center gap-3">
                       <div className="size-2.5 rounded-full bg-[#25D366] animate-pulse" />
                       <span className="text-xs font-mono font-bold text-dev-navy uppercase tracking-wider">
-                        Soporte local en Chiapas
+                        {data.asideBadge || "Soporte local en Chiapas"}
                       </span>
                     </div>
                   </div>
@@ -340,7 +340,7 @@ export function ServicePageTemplate({ data }: { data: ServiceDetail }) {
                     Impulsa tu negocio con soluciones digitales de verdad.
                   </h2>
                   <p className="mt-6 text-[clamp(1rem,1.8vw,1.18rem)] text-slate-200 leading-relaxed text-pretty">
-                    Contáctanos hoy para platicar sobre tu proyecto sin compromiso. Te daremos un diagnóstico claro y una propuesta para Tapachula o remoto.
+                    {data.finalCtaDescription || "Contáctanos hoy para platicar sobre tu proyecto sin compromiso. Te daremos un diagnóstico claro y una propuesta para Tapachula o remoto."}
                   </p>
                   <div className="mt-8 flex justify-center max-md:[&>*]:w-full">
                     <Button href={contactUrl} external showArrow ariaLabel="Platicar con un asesor por WhatsApp">

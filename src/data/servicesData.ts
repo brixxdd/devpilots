@@ -11,6 +11,9 @@ export interface ServiceDetail {
   faqs: Array<{ question: string; answer: string }>;
   ctaText?: string;
   whatsappMessage?: string;
+  asideBadge?: string;
+  asideDescription?: string;
+  finalCtaDescription?: string;
 }
 
 export const servicesData: Record<string, ServiceDetail> = {
@@ -278,6 +281,9 @@ export const servicesData: Record<string, ServiceDetail> = {
       { question: "¿El soporte después de la entrega también es remoto?", answer: "Sí, todo el soporte y mantenimiento se da por WhatsApp y acceso remoto, con los mismos tiempos de respuesta que le damos a nuestros clientes en Tapachula." }
     ],
     ctaText: "Quiero una propuesta para mi negocio en Guatemala",
-    whatsappMessage: "Hola DevPilots, tengo un negocio en Guatemala y me interesa una cotización."
+    whatsappMessage: "Hola DevPilots, tengo un negocio en Guatemala y me interesa una cotización.",
+    asideBadge: "Atención remota para Guatemala",
+    asideDescription: "Nos encargamos de todo el proceso técnico y creativo, coordinando por WhatsApp y videollamada para que tu negocio en Guatemala tenga un sistema profesional sin importar la distancia.",
+    finalCtaDescription: "Te daremos un diagnóstico claro y una propuesta para tu negocio en Guatemala, con atención 100% remota por WhatsApp."
   }
 };

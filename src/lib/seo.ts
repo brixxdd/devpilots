@@ -4,9 +4,9 @@ export const siteConfig = {
   url: "https://devpilots.dev",
   name: "DevPilots",
   locale: "es_MX",
-  defaultTitle: "DevPilots | Desarrollo web y automatización en Tapachula",
+  defaultTitle: "DevPilots | Desarrollo web y software en Tapachula y Guatemala",
   defaultDescription:
-    "Páginas web, sistemas y automatización de WhatsApp para negocios en Tapachula. Más clientes, procesos ordenados y presencia profesional.",
+    "Páginas web, sistemas y automatización de WhatsApp para negocios en Tapachula y la zona fronteriza con Guatemala (Chiquimula, Esquipulas), y de forma remota.",
   defaultImage: {
     url: "/og-devpilots.jpg",
     width: 1200,

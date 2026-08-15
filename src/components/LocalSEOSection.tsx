@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Reveal } from "./ui/Reveal";
 
 export function LocalSEOSection() {
@@ -12,6 +13,12 @@ export function LocalSEOSection() {
             </h2>
             <p className="text-[clamp(1.125rem,1.9vw,1.35rem)] leading-relaxed text-dev-gray text-pretty">
               En DevPilots desarrollamos páginas web, sistemas administrativos, aplicaciones, automatizaciones y soluciones de punto de venta para negocios en Tapachula, Chiapas y otras ciudades de México.
+            </p>
+            <p className="mt-4 text-[clamp(1rem,1.6vw,1.15rem)] leading-relaxed text-dev-gray text-pretty">
+              También atendemos negocios del lado guatemalteco de la frontera —Chiquimula, Esquipulas, Concepción Las Minas— de forma{" "}
+              <Link href="/servicios/desarrollo-software-guatemala" className="font-bold text-dev-orange hover:underline">
+                100% remota
+              </Link>.
             </p>
           </div>
         </Reveal>

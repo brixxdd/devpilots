@@ -47,10 +47,11 @@ const structuredData = {
   logo: `${siteConfig.url}/assets-devpilots-logo.png`,
   image: `${siteConfig.url}${siteConfig.defaultImage.url}`,
   telephone: "+529626002508",
-  areaServed: {
-    "@type": "City",
-    name: "Tapachula",
-  },
+  areaServed: [
+    { "@type": "City", name: "Tapachula" },
+    { "@type": "Country", name: "Guatemala" },
+    { "@type": "AdministrativeArea", name: "Chiquimula" },
+  ],
   address: {
     "@type": "PostalAddress",
     addressLocality: "Tapachula",

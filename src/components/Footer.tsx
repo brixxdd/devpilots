@@ -10,6 +10,7 @@ const serviceLinks = [
   { href: "/servicios/automatizacion-whatsapp", label: "Automatización de WhatsApp" },
   { href: "/servicios/punto-de-venta-tapachula", label: "Punto de venta" },
   { href: "/servicios/software-para-gimnasios", label: "Software para gimnasios" },
+  { href: "/servicios/desarrollo-software-guatemala", label: "Desarrollo de software en Guatemala" },
 ];
 
 const legalLinks = [

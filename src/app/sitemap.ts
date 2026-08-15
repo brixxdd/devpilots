@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/servicios/automatizacion-whatsapp", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/servicios/punto-de-venta-tapachula", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/servicios/software-para-gimnasios", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/servicios/desarrollo-software-guatemala", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/privacidad", changeFrequency: "yearly" as const, priority: 0.3 },
     { path: "/terminos", changeFrequency: "yearly" as const, priority: 0.3 },
     { path: "/cookies", changeFrequency: "yearly" as const, priority: 0.3 },

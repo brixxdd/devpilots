@@ -241,5 +241,43 @@ export const servicesData: Record<string, ServiceDetail> = {
     ],
     ctaText: "Crecer mi gimnasio hoy",
     whatsappMessage: "Hola DevPilots, me interesa el servicio de Software para Gimnasios en Tapachula."
+  },
+  "desarrollo-software-guatemala": {
+    slug: "desarrollo-software-guatemala",
+    title: "Desarrollo de software y páginas web para negocios en Guatemala",
+    subtitle: "Sistemas a la medida, páginas web y automatización de WhatsApp para negocios en Chiquimula, Esquipulas, Concepción Las Minas y toda Guatemala, con atención 100% remota.",
+    description: "Desde Tapachula, en la frontera con Guatemala, apoyamos a negocios guatemaltecos a digitalizar su operación: páginas web profesionales, sistemas administrativos, puntos de venta y automatización de WhatsApp, coordinados a distancia sin perder cercanía ni tiempos de respuesta.",
+    featuresTitle: "Qué incluye nuestro servicio para negocios en Guatemala",
+    features: [
+      { title: "Páginas web y sistemas a la medida", desc: "Sitios web y plataformas administrativas diseñadas para las necesidades reales de tu negocio en Guatemala." },
+      { title: "Coordinación 100% remota", desc: "Todo el proceso —reuniones, revisiones y entregas— se hace por WhatsApp y videollamada, sin necesidad de que viajes ni de que viajemos." },
+      { title: "Automatización de WhatsApp", desc: "Chatbots y recordatorios automáticos para atender clientes y cobros sin depender de estar siempre conectado." },
+      { title: "Punto de venta e inventario", desc: "Control de ventas, caja e inventario para comercios, farmacias y negocios de la región." },
+      { title: "Pagos y facturación adaptados", desc: "Integración con pasarelas de pago y formatos de facturación acordes a cómo opera tu negocio en Guatemala." },
+      { title: "Soporte y mantenimiento continuo", desc: "Acompañamiento posterior al lanzamiento para resolver dudas, ajustes y mejoras según crece tu negocio." }
+    ],
+    targetAudience: [
+      { title: "Comercios y negocios locales", desc: "Tiendas, farmacias, restaurantes y negocios familiares en Chiquimula, Esquipulas, Concepción Las Minas y municipios cercanos que quieren verse serios en internet." },
+      { title: "Gimnasios y centros deportivos", desc: "Negocios fitness que necesitan control de membresías, asistencia y cobros automatizados." },
+      { title: "Profesionales y consultorios", desc: "Médicos, abogados, contadores y consultores que buscan una página web y sistema de agenda profesional." }
+    ],
+    process: [
+      { step: "01", title: "Diagnóstico por WhatsApp", desc: "Platicamos sobre tu negocio, tus procesos actuales y qué necesitas resolver, sin costo ni compromiso." },
+      { step: "02", title: "Propuesta y Cotización", desc: "Te enviamos una propuesta clara con alcance, tiempos y costo en quetzales o dólares según prefieras." },
+      { step: "03", title: "Desarrollo y Revisiones", desc: "Construimos tu proyecto y lo revisamos juntos en videollamadas periódicas hasta que quede exactamente como lo necesitas." },
+      { step: "04", title: "Lanzamiento y Soporte", desc: "Ponemos tu proyecto en marcha y quedamos disponibles por WhatsApp para soporte y ajustes." }
+    ],
+    benefits: [
+      { title: "Cercanía real, no solo geográfica", desc: "Al estar justo en la frontera, entendemos la forma de hacer negocios en la región, no solo el idioma." },
+      { title: "Sin necesidad de viajar", desc: "Todo el proceso está diseñado para funcionar a distancia sin perder calidad ni tiempos de respuesta." },
+      { title: "Precios claros desde el inicio", desc: "Cotización cerrada antes de empezar, sin sorpresas ni cobros ocultos a mitad de proyecto." }
+    ],
+    faqs: [
+      { question: "¿Trabajan con negocios fuera de Tapachula, en Guatemala?", answer: "Sí. Aunque estamos ubicados en Tapachula, Chiapas, atendemos negocios en Guatemala —incluyendo Chiquimula, Esquipulas y Concepción Las Minas— de forma completamente remota, coordinando todo por WhatsApp y videollamada." },
+      { question: "¿Cómo se manejan los pagos si estoy en Guatemala?", answer: "Nos adaptamos a la forma de pago que te sea más práctica: transferencia, pasarela en línea o el método que ya uses para tus operaciones internacionales." },
+      { question: "¿El soporte después de la entrega también es remoto?", answer: "Sí, todo el soporte y mantenimiento se da por WhatsApp y acceso remoto, con los mismos tiempos de respuesta que le damos a nuestros clientes en Tapachula." }
+    ],
+    ctaText: "Quiero una propuesta para mi negocio en Guatemala",
+    whatsappMessage: "Hola DevPilots, tengo un negocio en Guatemala y me interesa una cotización."
   }
 };

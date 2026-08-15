@@ -24,13 +24,13 @@ Este proyecto incluye Umami en `docker-compose.yml` para contar visitas sin cook
 
    ```bash
    UMAMI_WEBSITE_ID=tu-website-id
-   UMAMI_SCRIPT_URL=https://devpilots.duckdns.org/umami/script.js
+   UMAMI_SCRIPT_URL=https://devpilots.dev/umami/script.js
    ```
 
    Si no tienes proxy para `/umami`, puedes apuntar temporalmente al puerto directo:
 
    ```bash
-   UMAMI_SCRIPT_URL=https://devpilots.duckdns.org:3006/script.js
+   UMAMI_SCRIPT_URL=https://devpilots.dev:3006/script.js
    ```
 
 6. Reinicia el contenedor web:

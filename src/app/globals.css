@@ -154,6 +154,42 @@ svg {
     transform: rotate(-8deg);
   }
 
+  .legal-prose h2 {
+    margin-top: 2.25rem;
+    margin-bottom: 0.75rem;
+    font-family: var(--font-display), system-ui, sans-serif;
+    font-size: clamp(1.25rem, 2.2vw, 1.5rem);
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    color: var(--navy);
+  }
+
+  .legal-prose p {
+    margin-bottom: 1rem;
+    line-height: 1.75;
+  }
+
+  .legal-prose ul {
+    margin-bottom: 1rem;
+    padding-left: 1.25rem;
+    list-style: disc;
+  }
+
+  .legal-prose li {
+    margin-bottom: 0.5rem;
+    line-height: 1.7;
+  }
+
+  .legal-prose strong {
+    color: var(--navy);
+  }
+
+  .legal-prose a {
+    color: var(--orange);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
   .route-line::after {
     content: "";
     position: absolute;

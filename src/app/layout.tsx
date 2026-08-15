@@ -1,6 +1,9 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Sora } from "next/font/google";
 import Script from "next/script";
+import { siteConfig, buildMetadata } from "@/lib/seo";
+import { CookieConsentBanner } from "@/components/CookieConsent";
+import { AnalyticsScripts } from "@/components/AnalyticsScripts";
 import "./globals.css";
 
 const sora = Sora({
@@ -16,33 +19,33 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://devpilots.duckdns.org"),
-  title: "DevPilots | Desarrollo web, marketing y automatización en Tapachula",
-  description:
-    "DevPilots crea páginas web, sistemas, automatizaciones y estrategias digitales para negocios locales, gimnasios, consultorios, marcas personales y emprendedores en Tapachula y remoto.",
+  metadataBase: new URL(siteConfig.url),
+  ...buildMetadata({
+    title: siteConfig.defaultTitle,
+    description: siteConfig.defaultDescription,
+    path: "/",
+  }),
   icons: {
     icon: [
-      { url: "/assets-devpilots-logo-removebg-preview.png", type: "image/png" },
+      { url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" },
+      { url: "/assets-devpilots-logo-removebg-preview.png", type: "image/png", sizes: "254x256" },
     ],
-    apple: [
-      { url: "/assets-devpilots-logo-removebg-preview.png", type: "image/png" },
-    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
   },
-  openGraph: {
-    title: "DevPilots | Desarrollo web, marketing y automatización en Tapachula",
-    description:
-      "DevPilots crea páginas web, sistemas, automatizaciones y estrategias digitales para negocios locales, gimnasios, consultorios, marcas personales y emprendedores en Tapachula y remoto.",
-    images: ["/og-devpilots.png"],
-    type: "website",
-  },
+  manifest: "/site.webmanifest",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#062B49",
 };
 
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  name: "DevPilots",
-  url: "https://devpilots.duckdns.org",
-  logo: "https://devpilots.duckdns.org/assets-devpilots-logo.png",
+  name: siteConfig.name,
+  url: siteConfig.url,
+  logo: `${siteConfig.url}/assets-devpilots-logo.png`,
+  image: `${siteConfig.url}${siteConfig.defaultImage.url}`,
   telephone: "+529626002508",
   areaServed: {
     "@type": "City",
@@ -85,6 +88,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             strategy="afterInteractive"
           />
         ) : null}
+        <AnalyticsScripts />
+        <CookieConsentBanner />
       </body>
     </html>
   );

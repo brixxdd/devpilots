@@ -13,6 +13,8 @@ export const site = {
   whatsapp: "+52 962 600 2508",
   instagram: "@dev_pilots25",
   location: "Tapachula, Chiapas / remoto",
+  legalName: "Brian Flores (DevPilots)",
+  privacyEmail: "brianes666@gmail.com",
   ctas: {
     diagnosis: whatsappUrl("Hola DevPilots, quiero solicitar un diagnóstico gratis"),
     proposal: whatsappUrl("Hola DevPilots, quiero una propuesta para mi negocio"),

@@ -11,6 +11,7 @@ import { GlassCard } from "./ui/GlassCard";
 import { Reveal } from "./ui/Reveal";
 import { site } from "@/data/site";
 import { whatsappUrl } from "@/lib/utils";
+import { siteConfig } from "@/lib/seo";
 import type { ServiceDetail } from "@/data/servicesData";
 
 export function ServicePageTemplate({ data }: { data: ServiceDetail }) {
@@ -23,9 +24,56 @@ export function ServicePageTemplate({ data }: { data: ServiceDetail }) {
 
   const whatsappMessage = data.whatsappMessage || `Hola DevPilots, me interesa el servicio de ${data.title}.`;
   const contactUrl = whatsappUrl(whatsappMessage);
+  const pageUrl = `${siteConfig.url}/servicios/${data.slug}`;
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Inicio", item: siteConfig.url },
+      { "@type": "ListItem", position: 2, name: "Servicios", item: `${siteConfig.url}/#soluciones` },
+      { "@type": "ListItem", position: 3, name: data.title, item: pageUrl },
+    ],
+  };
+
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: data.title,
+    description: data.description,
+    url: pageUrl,
+    areaServed: { "@type": "City", name: "Tapachula" },
+    provider: { "@type": "ProfessionalService", name: siteConfig.name, url: siteConfig.url },
+  };
+
+  const faqSchema = data.faqs.length
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: data.faqs.map((faq) => ({
+          "@type": "Question",
+          name: faq.question,
+          acceptedAnswer: { "@type": "Answer", text: faq.answer },
+        })),
+      }
+    : null;
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      {faqSchema ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      ) : null}
       <Navbar />
       <main className="min-h-screen bg-gradient-to-b from-[#f7fbff] via-white to-[#f3f8fd] pb-10">
         

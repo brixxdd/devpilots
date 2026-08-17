@@ -69,7 +69,7 @@ export function Navbar() {
               {t(item.key)}
             </Link>
           ))}
-          <LanguageSwitcher className="max-md:w-full" />
+          <LanguageSwitcher className="hidden max-md:block max-md:w-full" />
           <Button
             href={whatsappUrl(tw("diagnosis"))}
             external

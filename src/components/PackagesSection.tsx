@@ -1,21 +1,24 @@
+import { useLocale, useTranslations } from "next-intl";
 import { packages } from "@/data/packages";
+import { whatsappUrl } from "@/lib/utils";
 import { Button } from "./ui/Button";
 import { GlassCard } from "./ui/GlassCard";
 import { Reveal } from "./ui/Reveal";
 import { SectionHeader } from "./ui/SectionHeader";
 
 export function PackagesSection() {
+  const t = useTranslations("packagesSection");
+  const locale = useLocale() as "es" | "en";
+
   return (
     <section className="section">
       <div className="shell">
-        <SectionHeader
-          eyebrow="Paquetes"
-          title="Elige el punto de partida según tu etapa de crecimiento."
-          copy="Sin precios públicos: la propuesta se define por alcance, prioridad y resultado esperado."
-        />
+        <SectionHeader eyebrow={t("eyebrow")} title={t("title")} copy={t("copy")} />
         <div className="grid grid-cols-3 gap-[18px] max-lg:grid-cols-2 max-md:grid-cols-1">
-          {packages.map((item, index) => (
-            <Reveal key={item.title} delay={index * 0.04}>
+          {packages.map((item, index) => {
+            const content = item[locale];
+            return (
+            <Reveal key={item.id} delay={index * 0.04}>
               <GlassCard
                 className={
                   item.featured
@@ -24,11 +27,11 @@ export function PackagesSection() {
                 }
               >
                 <h3 className={`font-display text-[clamp(1.25rem,2vw,1.625rem)] font-black leading-tight ${item.featured ? "text-white" : "text-dev-black"}`}>
-                  {item.title}
+                  {content.title}
                 </h3>
-                <p className={`mt-3 ${item.featured ? "text-white/80" : "text-dev-gray"}`}>{item.copy}</p>
+                <p className={`mt-3 ${item.featured ? "text-white/80" : "text-dev-gray"}`}>{content.copy}</p>
                 <ul className={`my-6 grid gap-2.5 ${item.featured ? "text-white" : "text-dev-gray"}`}>
-                  {item.features.map((feature) => (
+                  {content.features.map((feature) => (
                     <li key={feature} className="flex items-center gap-2.5 text-sm">
                       <span className="size-2 rounded-full bg-dev-cyan" aria-hidden="true" />
                       {feature}
@@ -36,17 +39,18 @@ export function PackagesSection() {
                   ))}
                 </ul>
                 <Button
-                  href={item.href}
+                  href={whatsappUrl(content.whatsappMessage)}
                   external
                   variant={item.featured ? "primary" : "secondary"}
                   className="mt-auto"
-                  ariaLabel={`Solicitar propuesta de ${item.title} por WhatsApp`}
+                  ariaLabel={t("ctaAria", { title: content.title })}
                 >
-                  Solicitar propuesta
+                  {t("ctaLabel")}
                 </Button>
               </GlassCard>
             </Reveal>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

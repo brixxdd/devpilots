@@ -1,0 +1,140 @@
+{
+  "nav": {
+    "ariaMain": "Navegación principal",
+    "homeAria": "DevPilots inicio",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "inicio": "Inicio",
+    "soluciones": "Soluciones",
+    "proceso": "Proceso",
+    "capacidades": "Capacidades",
+    "contacto": "Contacto",
+    "diagnosisLabel": "Diagnóstico gratis",
+    "diagnosisAria": "Solicitar diagnóstico gratis por WhatsApp"
+  },
+  "whatsapp": {
+    "diagnosis": "Hola DevPilots, quiero solicitar un diagnóstico gratis",
+    "proposal": "Hola DevPilots, quiero una propuesta para mi negocio",
+    "fitness": "Hola DevPilots, quiero crecer mi negocio fitness",
+    "contact": "Hola DevPilots, quiero hablar sobre mi negocio",
+    "floatAria": "Hablar con DevPilots por WhatsApp",
+    "floatLabel": "WhatsApp"
+  },
+  "hero": {
+    "badge": "Tecnología, marketing y automatización para negocios",
+    "titleLead": "Tecnología y marketing para negocios que quieren",
+    "titleHighlight": "crecer",
+    "subtitle": "Creamos páginas web, sistemas y estrategias digitales para que tu negocio consiga más clientes, automatice procesos y se vea profesional desde el primer contacto.",
+    "ctaPrimary": "Solicitar diagnóstico gratis",
+    "ctaSecondary": "Ver soluciones",
+    "visualAria": "Visual de dashboard DevPilots",
+    "panelTitle": "Panel de crecimiento",
+    "growthPanelTitle": "Crecimiento comercial",
+    "growthPanelTag": "clientes potenciales",
+    "trackingPanelTitle": "Seguimiento activo",
+    "rowFollowups": "Seguimientos",
+    "rowAppointments": "Citas agendadas",
+    "rowPayments": "Pagos registrados",
+    "rowCampaigns": "Campañas activas",
+    "floatingWeb": "Página web",
+    "floatingWhatsapp": "WhatsApp + automatización",
+    "floatingDashboard": "Dashboard"
+  },
+  "localSeo": {
+    "eyebrow": "Presencia y Cobertura Local",
+    "title": "Desarrollo web y software para negocios en Tapachula",
+    "paragraph1": "En DevPilots desarrollamos páginas web, sistemas administrativos, aplicaciones, automatizaciones y soluciones de punto de venta para negocios en Tapachula, Chiapas y otras ciudades de México.",
+    "paragraph2Lead": "También atendemos negocios del lado guatemalteco de la frontera —Chiquimula, Esquipulas, Concepción Las Minas— de forma",
+    "paragraph2LinkText": "100% remota"
+  },
+  "problemsSection": {
+    "eyebrow": "Problemas que resolvemos",
+    "title": "Menos improvisación. Más sistemas para vender y operar mejor.",
+    "copy": "DevPilots traduce problemas comunes de negocio en presencia digital, seguimiento comercial y herramientas operativas listas para crecer."
+  },
+  "solutionsSection": {
+    "eyebrow": "Soluciones DevPilots",
+    "title": "Servicios digitales presentados como resultados de negocio.",
+    "copy": "No vendemos tecnología por tecnología: cada pieza debe ayudar a captar, organizar, automatizar o convertir mejor."
+  },
+  "fitnessSection": {
+    "eyebrow": "DevPilots Fitness Growth",
+    "title": "Una línea especializada para negocios fitness que quieren crecer.",
+    "copy": "Presencia digital, sistemas de clientes, campañas, contenido y automatización para gimnasios, entrenadores, nutriólogos, coaches, eventos fitness y marcas deportivas.",
+    "ctaLabel": "Explorar línea fitness",
+    "ctaAria": "Explorar línea fitness por WhatsApp",
+    "metricsAria": "Módulos fitness"
+  },
+  "businessTypesSection": {
+    "eyebrow": "Soluciones por negocio",
+    "title": "Soluciones para distintos tipos de negocio.",
+    "copy": "Adaptamos presencia digital, automatización y sistemas a la forma real en que cada negocio vende, atiende y da seguimiento."
+  },
+  "processSection": {
+    "eyebrow": "Nuestro proceso",
+    "title": "Un camino claro desde el diagnóstico hasta la mejora continua.",
+    "copy": "Cada proyecto inicia con una conversación de negocio y termina con una solución lista para usarse, medirse y seguir creciendo."
+  },
+  "capabilitiesSection": {
+    "eyebrow": "Capacidades comerciales",
+    "title": "Lo que podemos construir para tu negocio.",
+    "copy": "Convertimos necesidades operativas en herramientas concretas para captar clientes, atender mejor y tomar decisiones con información.",
+    "asideTitle": "No es una lista de tecnologías. Es infraestructura para vender y operar.",
+    "asideCopy": "DevPilots diseña sistemas que conectan la parte visible del negocio con el seguimiento interno: lo que ve el cliente, lo que atiende tu equipo y lo que necesitas medir."
+  },
+  "packagesSection": {
+    "eyebrow": "Paquetes",
+    "title": "Elige el punto de partida según tu etapa de crecimiento.",
+    "copy": "Sin precios públicos: la propuesta se define por alcance, prioridad y resultado esperado.",
+    "ctaLabel": "Solicitar propuesta",
+    "ctaAria": "Solicitar propuesta de {title} por WhatsApp"
+  },
+  "finalCta": {
+    "eyebrow": "Siguiente paso",
+    "title": "Tu negocio puede verse mejor, vender mejor y operar mejor.",
+    "copy": "Hablemos de lo que necesitas y creemos una solución digital clara, profesional y preparada para crecer.",
+    "ctaLabel": "Hablemos por WhatsApp",
+    "ctaAria": "Hablar con DevPilots por WhatsApp"
+  },
+  "footer": {
+    "tagline": "Soluciones digitales para negocios.",
+    "servicesHeading": "Servicios",
+    "legalHeading": "Legal",
+    "whatsappLabel": "WhatsApp",
+    "instagramLabel": "Instagram",
+    "locationLabel": "Ubicación",
+    "privacyLink": "Aviso de privacidad",
+    "termsLink": "Términos y condiciones",
+    "cookiesLink": "Política de cookies",
+    "cookiePrefs": "Preferencias de cookies"
+  },
+  "legal": {
+    "updatedLabel": "Última actualización:"
+  },
+  "servicePage": {
+    "breadcrumbHome": "Inicio",
+    "breadcrumbServices": "Servicios",
+    "viewIncludes": "Ver qué incluye",
+    "asideCardTitle": "Solución Llave en Mano",
+    "asideDefaultDescription": "Nos encargamos de todo el proceso técnico y creativo. Tú te enfocas en operar tu negocio mientras nosotros construimos las herramientas para hacerlo crecer en Tapachula.",
+    "asideDefaultBadge": "Soporte local en Chiapas",
+    "featuresDefaultTitle": "Qué incluye nuestro servicio",
+    "detailsEyebrow": "Detalles del Servicio",
+    "audienceEyebrow": "¿Es para ti?",
+    "audienceTitle": "Diseñado para resolver necesidades reales",
+    "profileLabel": "Perfil",
+    "processEyebrow": "Paso a Paso",
+    "processTitle": "Nuestro proceso de desarrollo",
+    "benefitsEyebrow": "Beneficios Directos",
+    "benefitsTitle": "¿Por qué elegir a DevPilots?",
+    "faqEyebrow": "Resolvemos tus Dudas",
+    "faqTitle": "Preguntas Frecuentes",
+    "ctaEyebrow": "¿Listo para empezar?",
+    "ctaTitle": "Impulsa tu negocio con soluciones digitales de verdad.",
+    "ctaDefaultDescription": "Contáctanos hoy para platicar sobre tu proyecto sin compromiso. Te daremos un diagnóstico claro y una propuesta para Tapachula o remoto.",
+    "ctaButton": "Platicar con un asesor por WhatsApp",
+    "ctaButtonAria": "Platicar con un asesor por WhatsApp",
+    "defaultCtaText": "Solicitar información por WhatsApp",
+    "defaultCtaTextAria": "Solicitar información por WhatsApp"
+  }
+}

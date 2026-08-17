@@ -1,0 +1,140 @@
+{
+  "nav": {
+    "ariaMain": "Main navigation",
+    "homeAria": "DevPilots home",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "inicio": "Home",
+    "soluciones": "Solutions",
+    "proceso": "Process",
+    "capacidades": "Capabilities",
+    "contacto": "Contact",
+    "diagnosisLabel": "Free diagnosis",
+    "diagnosisAria": "Request a free diagnosis on WhatsApp"
+  },
+  "whatsapp": {
+    "diagnosis": "Hi DevPilots, I'd like to request a free diagnosis",
+    "proposal": "Hi DevPilots, I'd like a proposal for my business",
+    "fitness": "Hi DevPilots, I want to grow my fitness business",
+    "contact": "Hi DevPilots, I'd like to talk about my business",
+    "floatAria": "Talk to DevPilots on WhatsApp",
+    "floatLabel": "WhatsApp"
+  },
+  "hero": {
+    "badge": "Technology, marketing and automation for businesses",
+    "titleLead": "Technology and marketing for businesses that want to",
+    "titleHighlight": "grow",
+    "subtitle": "We build websites, systems and digital strategies so your business gets more customers, automates processes and looks professional from the first contact.",
+    "ctaPrimary": "Request a free diagnosis",
+    "ctaSecondary": "See solutions",
+    "visualAria": "DevPilots dashboard visual",
+    "panelTitle": "Growth panel",
+    "growthPanelTitle": "Business growth",
+    "growthPanelTag": "potential customers",
+    "trackingPanelTitle": "Active follow-up",
+    "rowFollowups": "Follow-ups",
+    "rowAppointments": "Appointments booked",
+    "rowPayments": "Payments recorded",
+    "rowCampaigns": "Active campaigns",
+    "floatingWeb": "Website",
+    "floatingWhatsapp": "WhatsApp + automation",
+    "floatingDashboard": "Dashboard"
+  },
+  "localSeo": {
+    "eyebrow": "Local Presence and Coverage",
+    "title": "Web development and software for businesses in Tapachula",
+    "paragraph1": "At DevPilots we build websites, administrative systems, apps, automations and point-of-sale solutions for businesses in Tapachula, Chiapas and other cities in Mexico.",
+    "paragraph2Lead": "We also serve businesses on the Guatemalan side of the border —Chiquimula, Esquipulas, Concepción Las Minas— on a",
+    "paragraph2LinkText": "100% remote basis"
+  },
+  "problemsSection": {
+    "eyebrow": "Problems we solve",
+    "title": "Less improvising. More systems to sell and operate better.",
+    "copy": "DevPilots turns common business problems into digital presence, sales follow-up and operational tools ready to grow."
+  },
+  "solutionsSection": {
+    "eyebrow": "DevPilots Solutions",
+    "title": "Digital services presented as business results.",
+    "copy": "We don't sell technology for its own sake: every piece has to help you capture, organize, automate or convert better."
+  },
+  "fitnessSection": {
+    "eyebrow": "DevPilots Fitness Growth",
+    "title": "A specialized line for fitness businesses that want to grow.",
+    "copy": "Digital presence, customer systems, campaigns, content and automation for gyms, trainers, nutritionists, coaches, fitness events and sports brands.",
+    "ctaLabel": "Explore the fitness line",
+    "ctaAria": "Explore the fitness line on WhatsApp",
+    "metricsAria": "Fitness modules"
+  },
+  "businessTypesSection": {
+    "eyebrow": "Solutions by business",
+    "title": "Solutions for different types of businesses.",
+    "copy": "We tailor digital presence, automation and systems to the way each business actually sells, serves and follows up."
+  },
+  "processSection": {
+    "eyebrow": "Our process",
+    "title": "A clear path from diagnosis to continuous improvement.",
+    "copy": "Every project starts with a business conversation and ends with a solution that's ready to use, measure and keep growing."
+  },
+  "capabilitiesSection": {
+    "eyebrow": "Business capabilities",
+    "title": "What we can build for your business.",
+    "copy": "We turn operational needs into concrete tools to capture customers, serve them better and make decisions backed by data.",
+    "asideTitle": "It's not a list of technologies. It's infrastructure to sell and operate.",
+    "asideCopy": "DevPilots designs systems that connect the visible side of your business with internal follow-up: what the customer sees, what your team handles and what you need to measure."
+  },
+  "packagesSection": {
+    "eyebrow": "Packages",
+    "title": "Choose your starting point based on your stage of growth.",
+    "copy": "No public pricing: the proposal is defined by scope, priority and expected outcome.",
+    "ctaLabel": "Request a proposal",
+    "ctaAria": "Request a {title} proposal on WhatsApp"
+  },
+  "finalCta": {
+    "eyebrow": "Next step",
+    "title": "Your business can look better, sell better and operate better.",
+    "copy": "Let's talk about what you need and build a clear, professional digital solution ready to grow.",
+    "ctaLabel": "Let's talk on WhatsApp",
+    "ctaAria": "Talk to DevPilots on WhatsApp"
+  },
+  "footer": {
+    "tagline": "Digital solutions for businesses.",
+    "servicesHeading": "Services",
+    "legalHeading": "Legal",
+    "whatsappLabel": "WhatsApp",
+    "instagramLabel": "Instagram",
+    "locationLabel": "Location",
+    "privacyLink": "Privacy notice",
+    "termsLink": "Terms and conditions",
+    "cookiesLink": "Cookie policy",
+    "cookiePrefs": "Cookie preferences"
+  },
+  "legal": {
+    "updatedLabel": "Last updated:"
+  },
+  "servicePage": {
+    "breadcrumbHome": "Home",
+    "breadcrumbServices": "Services",
+    "viewIncludes": "See what's included",
+    "asideCardTitle": "Turnkey Solution",
+    "asideDefaultDescription": "We handle the entire technical and creative process. You focus on running your business while we build the tools to grow it in Tapachula.",
+    "asideDefaultBadge": "Local support in Chiapas",
+    "featuresDefaultTitle": "What our service includes",
+    "detailsEyebrow": "Service Details",
+    "audienceEyebrow": "Is this for you?",
+    "audienceTitle": "Designed to solve real needs",
+    "profileLabel": "Profile",
+    "processEyebrow": "Step by Step",
+    "processTitle": "Our development process",
+    "benefitsEyebrow": "Direct Benefits",
+    "benefitsTitle": "Why choose DevPilots?",
+    "faqEyebrow": "We Answer Your Questions",
+    "faqTitle": "Frequently Asked Questions",
+    "ctaEyebrow": "Ready to get started?",
+    "ctaTitle": "Grow your business with real digital solutions.",
+    "ctaDefaultDescription": "Contact us today to talk about your project with no commitment. We'll give you a clear diagnosis and a proposal, whether you're in Tapachula or remote.",
+    "ctaButton": "Talk to an advisor on WhatsApp",
+    "ctaButtonAria": "Talk to an advisor on WhatsApp",
+    "defaultCtaText": "Request information on WhatsApp",
+    "defaultCtaTextAria": "Request information on WhatsApp"
+  }
+}

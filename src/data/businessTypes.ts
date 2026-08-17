@@ -11,37 +11,37 @@ import {
 export const businessTypes = [
   {
     icon: Dumbbell,
-    title: "Gimnasios",
-    copy: "Inscripciones, pagos, asistencia, campañas y seguimiento a miembros.",
+    es: { title: "Gimnasios", copy: "Inscripciones, pagos, asistencia, campañas y seguimiento a miembros." },
+    en: { title: "Gyms", copy: "Sign-ups, payments, attendance, campaigns and member follow-up." },
   },
   {
     icon: HeartPulse,
-    title: "Consultorios",
-    copy: "Agenda, recordatorios, historial básico y captación de pacientes.",
+    es: { title: "Consultorios", copy: "Agenda, recordatorios, historial básico y captación de pacientes." },
+    en: { title: "Clinics", copy: "Scheduling, reminders, basic records and patient acquisition." },
   },
   {
     icon: Utensils,
-    title: "Restaurantes",
-    copy: "Menús digitales, promociones, reservas y pedidos por WhatsApp.",
+    es: { title: "Restaurantes", copy: "Menús digitales, promociones, reservas y pedidos por WhatsApp." },
+    en: { title: "Restaurants", copy: "Digital menus, promotions, reservations and orders via WhatsApp." },
   },
   {
     icon: Megaphone,
-    title: "Marcas personales",
-    copy: "Autoridad, landing de servicios, contenido y captación de leads.",
+    es: { title: "Marcas personales", copy: "Autoridad, landing de servicios, contenido y captación de leads." },
+    en: { title: "Personal brands", copy: "Authority, services landing page, content and lead capture." },
   },
   {
     icon: Trophy,
-    title: "Entrenadores",
-    copy: "Programas, pagos, comunidad, agenda y seguimiento de clientes.",
+    es: { title: "Entrenadores", copy: "Programas, pagos, comunidad, agenda y seguimiento de clientes." },
+    en: { title: "Trainers", copy: "Programs, payments, community, scheduling and client follow-up." },
   },
   {
     icon: GraduationCap,
-    title: "Academias",
-    copy: "Registro, horarios, cursos, pagos y comunicación con alumnos.",
+    es: { title: "Academias", copy: "Registro, horarios, cursos, pagos y comunicación con alumnos." },
+    en: { title: "Academies", copy: "Enrollment, schedules, courses, payments and student communication." },
   },
   {
     icon: Store,
-    title: "Negocios locales",
-    copy: "Presencia profesional, mensajes ordenados y procesos más claros.",
+    es: { title: "Negocios locales", copy: "Presencia profesional, mensajes ordenados y procesos más claros." },
+    en: { title: "Local businesses", copy: "Professional presence, organized messaging and clearer processes." },
   },
 ];

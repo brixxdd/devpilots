@@ -1,26 +1,26 @@
 export const processSteps = [
   {
-    title: "Diagnóstico",
-    copy: "Entendemos tu oferta, operación, canales y el problema que más afecta ventas u orden interno.",
+    es: { title: "Diagnóstico", copy: "Entendemos tu oferta, operación, canales y el problema que más afecta ventas u orden interno." },
+    en: { title: "Diagnosis", copy: "We understand your offer, operations, channels and the problem hurting sales or internal order the most." },
   },
   {
-    title: "Propuesta",
-    copy: "Definimos alcance, prioridades, entregables y el resultado de negocio que debe conseguirse.",
+    es: { title: "Propuesta", copy: "Definimos alcance, prioridades, entregables y el resultado de negocio que debe conseguirse." },
+    en: { title: "Proposal", copy: "We define scope, priorities, deliverables and the business outcome that needs to be achieved." },
   },
   {
-    title: "Diseño",
-    copy: "Convertimos la estrategia en pantallas, copy, estructura y experiencia visual premium.",
+    es: { title: "Diseño", copy: "Convertimos la estrategia en pantallas, copy, estructura y experiencia visual premium." },
+    en: { title: "Design", copy: "We turn the strategy into screens, copy, structure and a premium visual experience." },
   },
   {
-    title: "Desarrollo",
-    copy: "Construimos páginas, sistemas, automatizaciones o integraciones con base implementable.",
+    es: { title: "Desarrollo", copy: "Construimos páginas, sistemas, automatizaciones o integraciones con base implementable." },
+    en: { title: "Development", copy: "We build websites, systems, automations or integrations on an implementable foundation." },
   },
   {
-    title: "Lanzamiento",
-    copy: "Publicamos, conectamos formularios, WhatsApp, analítica y los flujos necesarios.",
+    es: { title: "Lanzamiento", copy: "Publicamos, conectamos formularios, WhatsApp, analítica y los flujos necesarios." },
+    en: { title: "Launch", copy: "We publish and connect forms, WhatsApp, analytics and the necessary flows." },
   },
   {
-    title: "Soporte y mejora continua",
-    copy: "Revisamos comportamiento real para ajustar, automatizar más y mantener el sistema vivo.",
+    es: { title: "Soporte y mejora continua", copy: "Revisamos comportamiento real para ajustar, automatizar más y mantener el sistema vivo." },
+    en: { title: "Support and continuous improvement", copy: "We review real behavior to adjust, automate more and keep the system alive." },
   },
 ];
